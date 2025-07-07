@@ -1,0 +1,11 @@
+export {default as Header} from './Header';
+export {default as Hero} from './Hero';
+export {default as About} from './About';
+export {default as Chef} from './Chef';
+export {default as Contact} from './Contact';
+export {default as Footer} from './Footer';
+export {default as Laurels} from './Laurels';
+export {default as Menu} from './Menu';
+export {default as Newsletter} from './Newsletter';
+export {default as Video} from './Video';
+export {default as Gallery} from './Gallery';

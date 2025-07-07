@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Tailwind Css */
+
+@layer base{
+.button{
+  @apply grid place-items-center text-[20px] w-[180px] h-[50px] rounded-[6px] bg-main font-base text-black font-semibold
+}
+.arrow-icon{
+  @apply w-[40px] h-[40px] grid place-items-center bg-[#af8e13] text-[20px] rounded-[6px] cursor-pointer
+}
+.p-text{
+  @apply text-gray-400 text-[20px] 
+}
+.footer-text{
+  @apply text-gray-400 text-[19px]
+}
+}
+
+/* Custom Css */
+
+body{
+    font-family: var(--font-main);
+    background: url('./assets/bg.png');
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+}
+
+.bk-color{
+  background: var(--color-black);
+}
+
+.gallery-image:hover{
+  background-color: #000c00;
+}
+
+.gallery-image:hover img{
+  opacity: 0.5;
+}
+
+.gallery-image:hover a{
+  display: block;
+}
+
+.font-base{
+  font-family: 'Cormorant Upright', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-main{
+  font-family: var(--font-main)
+}
+
+
+:root {
+  --font-main: 'Open Sans', sans-serif;
+  
+  --color-golden: #DCCA87;
+  --color-black: #0C0C0C;
+  --color-gray: #545454;
+  --color-crimson: #F5EFDB;
+  --color-grey: #AAAAAA;
+  --color-white: #FFFFFF;
+}
+
+.golden-color{
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
