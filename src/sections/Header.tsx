@@ -22,6 +22,7 @@ const Header = () => {
   
 const [toggle,setToggle] = useState<boolean>(false);
 
+
   return (
     <header className='border-b border-[#eeeeee54] sm:border-none'>
 
@@ -35,11 +36,11 @@ const [toggle,setToggle] = useState<boolean>(false);
         text-main xl:text-white font-base xl:font-main text-[30px] xl:text-[20px]
         `}>
 
-        <li><a href="#" className='nav-item'>Home</a></li>
-        <li><a href="#about" className='nav-item'>About</a></li>
-        <li><a href="#menu" className='nav-item'>Menu</a></li>
-        <li><a href="#awards" className='nav-item'>Awards</a></li>
-        <li><a href="#contact" className='nav-item'>Contact</a></li>
+        <li><a href="#" onClick={() => setToggle(false)} className='nav-item'>Home</a></li>
+        <li><a href="#about" onClick={() => setToggle(false)} className='nav-item'>About</a></li>
+        <li><a href="#menu" onClick={() => setToggle(false)} className='nav-item'>Menu</a></li>
+        <li><a href="#awards" onClick={() => setToggle(false)} className='nav-item'>Awards</a></li>
+        <li><a href="#contact" onClick={() => setToggle(false)} className='nav-item'>Contact</a></li>
 
         <div className='md:hidden'>
           <Button />
