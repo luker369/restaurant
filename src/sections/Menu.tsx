@@ -1,10 +1,10 @@
 import Subtitle from '../components/Subtitle'
 import {menu} from '../data/menu'
-import type { Menu } from '../types/Menu'
+import type { MenuProps } from '../types/MenuProps'
 import menuImg from '../assets/menu.png'
 
 
-const Element = (props: {elements: Menu[], title: string})=>(
+const Element = (props: {elements: MenuProps[], title: string})=>(
 
   <div id='menu' className='flex-1'>
     <h3 className='font-base text-[60px] text-center mb-[30px]'>{props.title}</h3>
