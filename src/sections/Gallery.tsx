@@ -35,14 +35,13 @@ const Gallery = () => {
   }
 
   return (
-    <div id='gallery' className='bk-color mt-[100px] px-[20px] sm:px-[100px] py-[70px] flex flex-col lg:flex-row gap-[30]'>
+    <div id='gallery' className='bk-color mt-[100px] px-[20px] sm:px-[100px] py-[70px] flex flex-col lg:flex-row gap-[30px]'>
       
       <div className="lg:w-[60%]">
         <Subtitle title='Instagram' />
         <h1 className='text-main font-base text-[80px]'>Photo Gallery</h1>
         <p className='text-gray-400 text-[20px] my-[30px]'>Lorem ispum dolor sit amet, consectetur adpiscing elit. Boutpat mattis ipsum turpis elit elit scelerisque egestas</p>
         <a href='#menu' className='button'>View More</a>
-      
       </div>
 
       <div className="lg:w-[35%]">
