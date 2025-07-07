@@ -1,7 +1,7 @@
-import type { Menu } from "../types/MenuProps"
+import type { MenuProps } from "../types/MenuProps"
 
 
-export const menu: (Menu[])[] = [
+export const menu: (MenuProps[])[] = [
 
   [
     {

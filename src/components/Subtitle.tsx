@@ -1,7 +1,7 @@
 import spoon from '../assets/spoon.png';
-import type { SubtitleT } from '../types/subtitle';
+import type { SubtitleProps } from '../types/SubtitleProps';
 
-const Subtitle = ({title,isCentered}: SubtitleT) => {
+const Subtitle = ({title,isCentered}: SubtitleProps) => {
   return (
     <div>
       <h1 className='text-[25px] font-base'>{title}</h1>
