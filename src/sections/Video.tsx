@@ -1,4 +1,3 @@
-import React from 'react'
 import mealVid from '../assets/meal.mp4'
 import { useState,useRef } from 'react';
 import { FaPlay,FaPause } from 'react-icons/fa';

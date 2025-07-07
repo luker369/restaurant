@@ -1,4 +1,3 @@
-import React from 'react'
 import spoon from '../assets/spoon.png'
 import {FaInstagram,FaFacebook,FaTwitter} from 'react-icons/fa'
 

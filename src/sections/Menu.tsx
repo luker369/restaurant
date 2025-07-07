@@ -1,4 +1,3 @@
-
 import Subtitle from '../components/Subtitle'
 import {menu} from '../data/menu'
 import type { Menu } from '../types/Menu'

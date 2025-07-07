@@ -1,4 +1,3 @@
-import React from 'react'
 import spoon from '../assets/spoon.png'
 
 const Title = ({title,isRight,isSmall}: {title: string, isRight?: boolean, isSmall: boolean}) => {

@@ -1,4 +1,3 @@
-import React from 'react';
 import spoon from '../assets/spoon.png';
 import type { SubtitleT } from '../types/subtitle';
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import { laurels } from '../data/laurels'
 import Subtitle from '../components/Subtitle'
 import laurelImg from '../assets/laurels.png'

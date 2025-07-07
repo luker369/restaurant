@@ -1,4 +1,3 @@
-import React from 'react'
 import welcomeImg from '../assets/welcome.png'
 import Subtitle from '../components/Subtitle'
 

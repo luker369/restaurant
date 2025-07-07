@@ -1,4 +1,3 @@
-import React from 'react'
 import chefImg from '../assets/chef.png'
 import Title from '../components/Title'
 import quoteImg from '../assets/quote.png'

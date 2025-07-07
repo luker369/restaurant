@@ -1,14 +1,11 @@
-import React from 'react'
 import Title from '../components/Title'
 import knife from '../assets/knife.png'
-import G from '../assets/G.png'
 
 
 
-
-const Element = ({name,text,isRight}: {name: string, text: string, isRight?: boolean})=>(
+const Element = ({name,text,isRight}: {name: string, text: string, isRight?: boolean,})=>(
   <div className={`${isRight ? 'text-right' : ''}`}>
-    <Title title={name} isRight={isRight}/>
+    <Title title={name} isRight={isRight} isSmall={false}/>
     <p className='text-[19px] sm:text-[22px] leading-[1.7] text-gray-400 my-[50px]'>{text}</p>
     <a href='#menu' className='button ml-auto'>Know More</a>
   </div>   
